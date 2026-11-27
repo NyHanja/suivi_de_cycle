@@ -1,0 +1,36 @@
+{
+  "name": "suivi-cycle",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "TP Ionic + Vue : application mobile de la gargote",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "vue-tsc --noEmit",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/camera": "^8.2.5",
+    "@capacitor/core": "8.5.3",
+    "@capacitor/preferences": "^8.0.1",
+    "@ionic/pwa-elements": "^3.4.0",
+    "@ionic/vue": "9.0.7",
+    "@ionic/vue-router": "9.0.7",
+    "ionicons": "8.1.0",
+    "vue": "3.5.43",
+    "vue-router": "5.4.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.3",
+    "@vitejs/plugin-vue": "6.0.10",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "^6.0.3",
+    "vite": "8.3.4",
+    "vue-tsc": "^3.3.13"
+  },
+  "engines": {
+    "node": ">=22.12"
+  }
+}
